@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Article } from '../../interfaces';
+import { Browser } from '@capacitor/browser';
 
 @Component({
   selector: 'app-article',
@@ -19,5 +20,14 @@ export class ArticleComponent implements OnInit {
 
 
   }
+  openArticle(){
+    
+    Browser.open({url:this.article.url });
 
+  }
+
+
+  onClick(){
+    
+  }
 }
