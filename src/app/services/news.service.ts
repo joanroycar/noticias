@@ -41,9 +41,6 @@ export class NewsService {
     //     // map(resp => resp.articles)
     //     map(({ articles }) => articles)
     //   );
-
-
-
   }
 
   getTopHeadlinesByCategory(category: string, loadMore:boolean=false): Observable<Article[]> {
