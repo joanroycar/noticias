@@ -36,11 +36,14 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
 
-
-.text-primary{
-    color: var(--ion-color-primary);
+.text-primary {
+  color: var(--ion-color-primary);
 }
 
-.article-source-name{
-    font-size: 12px;
+.article-source-name {
+  font-size: 12px;
+}
+
+.secondary {
+  color: red !important;
 }
